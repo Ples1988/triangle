@@ -1,0 +1,10 @@
+space = int(input('Number'))
+simbol = 1
+while space > -1:
+    print(' '* space + '*'*simbol)
+    simbol += 2
+    space -= 1
+
+
+
+
